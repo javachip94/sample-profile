@@ -1,0 +1,83 @@
+/* Adding background color to navigation bar */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Links inside navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of the links when the cursor hovers over it */
+.topnav a:hover {
+    background-color: grey;
+    color: white;
+}
+
+/* Aligning headings to the center of the page */ 
+h1, h2 { 
+	text-align: center;
+ }
+
+/* Indenting all paragraphs */
+p {
+	text-indent: 50px;
+}
+
+/* Aligning the profile image to the center of the page*/
+#image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Creating image borders */
+div.gallery {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 300px;
+}
+
+/* Setting image width and height*/
+div.gallery img {
+    width: 100%;
+    height: 375;
+}
+
+/* Caption settings */
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Aligning grid. Setting columns of grid*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1em;
+  background-color: white;
+}
+
+/* Settings for footer*/
+footer {
+background-color: white;
+overflow: hidden;
+float: left
+text-align: center;
+color: black;
+font-size: 14px;
+text-decoration: none
+}
